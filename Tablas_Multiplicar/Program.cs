@@ -23,6 +23,7 @@ namespace TABLAS_DE_MULTIPLICAR
 
             // Show details a work item
             ShowWorkItemDetails(connection, workItemId).Wait();
+            Console.WriteLine("Primer commit");
             Console.WriteLine("Segundo commit");
 
         }
