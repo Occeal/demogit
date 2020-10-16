@@ -23,6 +23,8 @@ namespace TABLAS_DE_MULTIPLICAR
 
             // Show details a work item
             ShowWorkItemDetails(connection, workItemId).Wait();
+            Console.WriteLine("Segundo commit");
+
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
